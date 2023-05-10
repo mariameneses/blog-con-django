@@ -19,32 +19,37 @@ Las publicaciones se agregan y editan desde la plataforma de administrador de dj
 git clone https://github.com/mariameneses/my-first-blog.git
 ```
 2. Ingresar a la carpeta del proyecto
-3. crear un ambiente virtual e instalar requerimientos:
+3. Crear y activar ambiente virtual:
 
 ```
 virtualenv venv
 ```
 ```
+source venv/bin/activate
+```
+4. Instalar requerimientos
+```
 pip install -r requirements.txt
 ```
-4. Crear superusuario
+
+5. Crear superusuario
 ```
 python manage.py createsuperuser
 ```
 - Luego, escribe nombre de usuario, dirección de correo electrónico y contraseña
 
-5. Ejecutar proyecto en el equipo local
+6. Ejecutar proyecto en el equipo local
 ```
 python manage.py runserver
 ```
-6. En un navegador, ingresar a la url `http://127.0.0.1:8000/admin` y digitar la información del usuario creado en el paso 4
+7. En un navegador, ingresar a la url `http://127.0.0.1:8000/admin` y digitar la información del usuario creado en el paso 4
 <img src="images_readme/admin.png" width="100%" alt="Formulario de ingreso de administrador">
 
-7. Agregar publicaciones escogiendo la opción de añadir en el panel izquierdo, en la sección de Blog y Posts.
+8. Agregar publicaciones escogiendo la opción de añadir en el panel izquierdo, en la sección de Blog y Posts.
 <img src="images_readme/panel_izquierdo.png" width="100%" alt="Panel de izquierdo en página de administrador">
 <img src="images_readme/agregar_publicacion.png" width="100%" alt="Formulario de publicación">
 
-8. Ahora, dirigirse a la url `http://127.0.0.1:8000` para visualizar las publicaciones en la página de inicio del sitio
+9. Ahora, dirigirse a la url `http://127.0.0.1:8000` para visualizar las publicaciones en la página de inicio del sitio
 <img src="images_readme/inicio.png" width="50%" alt="Página de inicio">
 - Al hacer click sobre el título de una publicación se dirigirá a su página de detalle
 <img src="images_readme/detalle_publicacion.png" width="80%" alt="Página de detalle de publicación">
