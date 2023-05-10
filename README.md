@@ -37,12 +37,12 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
-6. Ingresar la url `http://127.0.0.1:8000/admin` en un navegador y digitar la información del usuario creado en el paso 4
-<img src="images_readme/admin.png" width="50%" alt="Formulario de ingreso de administrador">
+6. En un navegador, ingresar a la url `http://127.0.0.1:8000/admin` y digitar la información del usuario creado en el paso 4
+<img src="images_readme/admin.png" width="100%" alt="Formulario de ingreso de administrador">
 
 7. Agregar publicaciones escogiendo la opción de añadir en el panel izquierdo, en la sección de Blog y Posts.
-<img src="images_readme/panel_izquierdo.png" width="50%" alt="Panel de izquierdo en página de administrador">
-<img src="images_readme/agregar_publicacion.png" width="80%" alt="Formulario de publicación">
+<img src="images_readme/panel_izquierdo.png" width="100%" alt="Panel de izquierdo en página de administrador">
+<img src="images_readme/agregar_publicacion.png" width="100%" alt="Formulario de publicación">
 
 8. Ahora, dirigirse a la url `http://127.0.0.1:8000` para visualizar las publicaciones en la página de inicio del sitio
 <img src="images_readme/inicio.png" width="50%" alt="Página de inicio">
